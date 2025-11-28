@@ -14,7 +14,7 @@ def euclidean_distance(p,q, metric ="euclidean",p_norm=3):
         return np.sqrt(np.sum((p-q)**2))
     
     if metric=="manhattan":
-        return np.sum(np.abs(p-1))
+        return np.sum(np.abs(p-q))
     
     if metric=="minkowski":
         return np.sum(np.abs(p-q)**p_norm)**(1/p_norm)
