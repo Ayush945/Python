@@ -19,7 +19,7 @@ How to Run
 bash# Install dependencies
 pip install osmnx networkx matplotlib
 
-# Run the script
+Run the script
 python DijkstraImpl.py
 Key Concepts
 
